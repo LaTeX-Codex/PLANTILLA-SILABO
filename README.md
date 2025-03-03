@@ -20,7 +20,8 @@ Plantilla en LaTeX para la elaboración de sílabos de asignaturas en la Univers
    ```bash
    git clone https://github.com/LaTeX-Codex/PLANTILLA-SILABO.git
 
-2. **Estructura de archivos
+2. **Estructura de archivos**
+```bash
 📁 plantilla-silabos-uraccan/
 ├── 📄 main.tex              # Archivo principal
 ├── 📁 sections/             # Subarchivos por sección (ej: 00_portada.tex)
