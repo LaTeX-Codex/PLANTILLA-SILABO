@@ -21,8 +21,39 @@ Plantilla en LaTeX para la elaboración de sílabos de asignaturas en la Univers
    git clone https://github.com/LaTeX-Codex/PLANTILLA-SILABO.git
 
 2. **Estructura de archivos**
-```bash
-📁 plantilla-silabos-uraccan/
-├── 📄 main.tex              # Archivo principal
-├── 📁 sections/             # Contiene los archivos por sección, aquí editarás solamente
-└── 📁 images/               # Contiene el logo de URACCAN (uraccan_logo.png)
+    ```bash
+    📁 plantilla-silabos-uraccan/
+    ├── 📄 main.tex              # Archivo principal
+    ├── 📁 sections/             # Contiene los archivos por sección, aquí editarás solamente
+    └── 📁 images/               # Contiene el logo de URACCAN (uraccan_logo.png)
+
+3. **Personaliza los archivos:**
+
+Modifica los contenidos en `sections`.
+
+4. **Compila:**
+
+En Overleaf: Sube los archivos y haz clic en Recompilar.
+
+En MikTeX: Abre main.tex en tu editor y compila con XeLaTeX o PDFLaTeX.
+
+## 📌 Características
+
+- Formato institucional con logo y datos generales.
+- Secciones predefinidas: objetivos, contenidos, metodologías, evaluación, bibliografía, y más.
+- Tablas ajustables para horarios y planes calendario.
+- Compatible con paquetes esenciales (graphicx, pdflscape, enumitem).
+
+## 📅 Ejemplo de uso
+
+Incluye un plan calendario con:
+
+- Fechas
+- Objetivos de aprendizaje
+- Estrategias metodológicas
+- Bibliografía por sesión
+
+---
+
+✨ Contribuciones: ¡Se aceptan mejoras y correcciones! Haz un fork y envía un pull request.
+🔧 Soporte: Para problemas, abre un issue en el repositorio.
