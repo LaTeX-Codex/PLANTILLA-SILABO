@@ -8,9 +8,9 @@ Plantilla en LaTeX para la elaboración de sílabos de asignaturas en la Univers
 ## 📋 Requisitos
 
 - **Editor de LaTeX**:
-  - 🖥️ **Overleaf** (recomendado): [Acceder a Overleaf](https://es.overleaf.com/)
+  - 🌎 **Overleaf** (recomendado): [Acceder a Overleaf](https://es.overleaf.com/)
     *No requiere instalación. Sube los archivos y compila en línea.*
-  - **MikTeX** (Windows): [Descargar MikTeX](https://miktex.org/download)
+  - 🖥️ **MikTeX** (Windows): [Descargar MikTeX](https://miktex.org/download)
     *Instala un editor como [TeXstudio](https://www.texstudio.org/) o [TeXmaker](http://www.xm1math.net/texmaker/).*
 
 ## 🚀 Cómo usar
