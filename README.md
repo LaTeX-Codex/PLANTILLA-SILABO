@@ -1,9 +1,10 @@
 # 🌟 Plantilla de Sílabos URACCAN en LaTeX
 
-Plantilla oficial para la elaboración de sílabos de asignaturas en la Universidad de las Regiones Autónomas de la Costa Caribe Nicaragüense (URACCAN).
 ![LaTeX](https://img.shields.io/badge/LaTeX-47A141?style=for-the-badge&logo=LaTeX&logoColor=white)
 ![Overleaf](https://img.shields.io/badge/Overleaf-388A12?style=for-the-badge&logo=overleaf&logoColor=white)
 ![CC BY-NC 4.0](https://img.shields.io/badge/Licencia-CC_BY--NC_4.0-EF9421?style=for-the-badge)
+
+Plantilla en LaTeX para la elaboración de sílabos de asignaturas en la Universidad de las Regiones Autónomas de la Costa Caribe Nicaragüense (URACCAN).
 
 ## 📋 Requisitos
 
