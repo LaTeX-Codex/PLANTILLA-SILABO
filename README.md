@@ -29,7 +29,7 @@ Plantilla en LaTeX para la elaboración de sílabos de asignaturas en la Univers
 
 3. **Personaliza los archivos:**
 
-Modifica los contenidos en `sections`.
+Modifica los contenidos en la carpeta `sections`.
 
 4. **Compila:**
 
@@ -44,16 +44,8 @@ En MikTeX: Abre main.tex en tu editor y compila con XeLaTeX o PDFLaTeX.
 - Tablas ajustables para horarios y planes calendario.
 - Compatible con paquetes esenciales (graphicx, pdflscape, enumitem).
 
-## 📅 Ejemplo de uso
-
-Incluye un plan calendario con:
-
-- Fechas
-- Objetivos de aprendizaje
-- Estrategias metodológicas
-- Bibliografía por sesión
-
 ---
 
 ✨ Contribuciones: ¡Se aceptan mejoras y correcciones! Haz un fork y envía un pull request.
+
 🔧 Soporte: Para problemas, abre un issue en el repositorio.
