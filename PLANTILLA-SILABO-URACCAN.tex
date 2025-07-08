@@ -16,6 +16,10 @@
 \usepackage{parskip}                        % Espaciado entre párrafos (en lugar de sangría)
 \usepackage{ragged2e}                       % Mejor manejo de justificación de texto
 
+\renewcommand{\thesection}{\Roman{section}} % Numeración romana para secciones
+\renewcommand{\thesubsection}{\arabic{section}.\arabic{subsection}} % Subsecciones: 1.1, 1.2...
+\renewcommand{\thesubsubsection}{\arabic{section}.\arabic{subsection}.\arabic{subsubsection}} % Subsubsecciones: 1.1.1, 1.1.2...
+
 % ================================================================
 % ELEMENTOS GRÁFICOS Y DISEÑO
 % ================================================================
@@ -37,21 +41,32 @@
 % ================================================================
 % HIPERVÍNCULOS Y METADATOS PDF
 % ================================================================
-\usepackage{hyperref}              % Enlaces interactivos y metadatos PDF
+\usepackage[hyphens]{url}
+\usepackage{hyperref}             % Hipervínculos y referencias internas
 \hypersetup{
-    colorlinks = true,             % Colores en lugar de cajas
-    linkcolor  = blue!70,          % Color para enlaces internos
-    urlcolor   = cyan!80,          % Color para URLs
-    citecolor  = magenta!70,       % Color para citas
+    breaklinks=true,                    % Configuración de hipervínculos
+    colorlinks=true,              % Habilita los enlaces coloreados
+    linkcolor=blue,               % Color de los enlaces internos
+    urlcolor=blue,                % Color de los enlaces externos
+    citecolor=blue,               % Color de las citas
+    pdfborder={0 0 0}             % Sin bordes en los enlaces
 }
+
+% ================================================================
+% TO DO: TAREAS PENDIENTES Y ANOTACIONES
+% ================================================================
+\usepackage{todonotes} % Paquete principal
+\setuptodonotes{
+    size=\tiny, % Tamaño de las notas
+}
+% Comandos personalizados (opcional)
+\newcommand{\pendiente}[1]{\todo[color=red!30, inline]{#1}}
+\newcommand{\revisar}[1]{\todo[color=yellow!30, inline]{#1}}
+\newcommand{\actualizar}[1]{\todo[color=green!30, inline]{#1}}
 
 % ================================================================
 % CONFIGURACIONES FINALES
 % ================================================================
-\renewcommand{\thesection}{\Roman{section}} % Numeración romana para secciones
-\renewcommand{\thesubsection}{\arabic{section}.\arabic{subsection}} % Subsecciones: 1.1, 1.2...
-\renewcommand{\thesubsubsection}{\arabic{section}.\arabic{subsection}.\arabic{subsubsection}} % Subsubsecciones: 1.1.1, 1.1.2...
-
 \newcommand{\universidad}{Universidad de las Regiones Autónomas de la Costa Caribe Nicaragüense} % Nombre de la universidad
 \newcommand{\carrera}{Nombre de la Carrera} % Nombre de la carrera
 \newcommand{\asignatura}{Nombre de la Asignatura} % Nombre de la asignatura
