@@ -1,18 +1,22 @@
+% Portada del documento
+% titlepage incluye un \pagebreak automático al final
+
 \begin{titlepage}
-    \centering
-    \begin{minipage}{0.2\textwidth}
-        \centering
-        \includegraphics[width=0.6\textwidth]{images/uraccan_logo.png}
+    \centering % centrar el contenido de la portada
+    % minipage permite dividir la portada en dos columnas
+    \begin{minipage}{0.2\textwidth} % logo en la columna izquierda
+        \centering % centrar el logo dentro de la minipage
+        \includegraphics[width=0.6\textwidth]{images/uraccan_logo.png} % inclusión del logo de la universidad
     \end{minipage}%
-    \begin{minipage}{0.8\textwidth}
-        \centering
-        \Large{\textbf{\universidad}}\\
+    \begin{minipage}{0.8\textwidth} % texto en la columna derecha
+        \centering % centrar el texto dentro de la minipage
+        \Large{\textbf{\universidad}}\\ % Nombre de la universidad, configurado en PLANTILLA-SILABO-URACCAN.tex
     \end{minipage}
 
-    \vfill
+    \vfill % espacio flexible para centrar el contenido verticalmente
     \large{\textbf{Syllabus}}\\
-    \Huge{\textbf{\asignatura}}\\
+    \Huge{\textbf{\asignatura}}\\ % Nombre de la asignatura, configurado en PLANTILLA-SILABO-URACCAN.tex
 
-    \vfill
-    \small{\textbf{\today{}}}\\
+    \vfill % espacio flexible para centrar el contenido verticalmente
+    \small{\textbf{\today{}}}\\ % Fecha actual, configurada con \today, que calcula la fecha automáticamente
 \end{titlepage}

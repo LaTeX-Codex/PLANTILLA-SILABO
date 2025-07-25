@@ -1,4 +1,4 @@
-\documentclass[letterpaper, 12pt, titlepage]{article} % Tipo de documento
+\documentclass[letterpaper, 12pt, titlepage]{article} % Tipo de documento, configurado con: tamaño carta, tamaño de fuente 12pt, inclusión de página de título
 
 % ================================================================
 % PAQUETES BÁSICOS Y CONFIGURACIÓN ESENCIAL
@@ -82,8 +82,12 @@
 % ================================================================
 \usepackage{lipsum} % Generador de texto de ejemplo
 
+% ================================================================
+% INICIO DEL DOCUMENTO (contenido principal)
+% ================================================================
 \begin{document}
 
+% Se incluyen las secciones del syllabus que se encuentran en el directorio sections
 \input{sections/00_portada.tex}
 \input{sections/01_datos_generales.tex}
 \input{sections/02_descriptor.tex}
@@ -96,3 +100,6 @@
 \input{sections/09_plan_calendario.tex}
 
 \end{document}
+% ================================================================
+% FIN DEL DOCUMENTO
+% ================================================================
