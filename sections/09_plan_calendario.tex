@@ -1,21 +1,22 @@
+\newgeometry{margin=1.5cm} % Ajusta los márgenes para la tabla
 \begin{landscape}
 
     \section{Plan Calendario}
+
     \small
-    \begin{xltabular}{\linewidth}{@{}X X X X X X@{}}
+    \begin{xltabular}{\linewidth}{XXXXXXX}
         \toprule
-        \encabezadodetabla{Fecha} & \encabezadodetabla{Objetivos o Resultados de Aprendizaje} & \encabezadodetabla{Contenidos} & \encabezadodetabla{Estrategias Metodológicas} & \encabezadodetabla{Trabajo Independiente} & \encabezadodetabla{Mecanismos de Evaluación} \\
+        \begin{center}\textbf{Fecha}\end{center} & \begin{center}\textbf{Objetivos o Resultados de Aprendizaje}\end{center} & \begin{center}\textbf{Contenidos}\end{center} & \begin{center}\textbf{Estrategias Metodológicas}\end{center} & \begin{center}\textbf{Trabajo Independiente}\end{center} & \begin{center}\textbf{Mecanismos de Evaluación}\end{center} & \begin{center}\textbf{Bibliografía}\end{center} \\
         \midrule
         %\begingroup Sesión 1
         \begin{itemize}[label={}, labelsep=0pt, left=0pt .. 0pt, itemsep=1em] % Fecha de la sesión
             %! Reemplace con la fecha real y detalles de la sesión
             \item díadelasemana, XX de mes de 202X
             \item Sesión \#XX de XX
-            \item Presencial/Virtual
+            \item Presencial o Virtual
         \end{itemize} &
         \begin{itemize}[label={}, labelsep=0pt, left=0pt .. 0pt, itemsep=1em] % Objetivos o Resultados de Aprendizaje
             %! Reemplace con los objetivos específicos de la sesión, borrando los comandos \lipsum
-            \item \lipsum[2][1-2]
             \item \lipsum[2][1-2]
             \item \lipsum[2][1-2]
             \item \lipsum[2][1-2]
@@ -51,7 +52,17 @@
             \item Mecanismo de evaluación 2
             \item Mecanismo de evaluación 3
             \item Mecanismo de evaluación 4
-        \end{itemize} \\
+        \end{itemize} &
+        \begin{itemize}[label={}, labelsep=0pt, left=0pt .. 0pt, itemsep=1em] % Bibliografía
+            %! Reemplace con la bibliografía de la sesión, borrando los comandos \lipsum
+            %! Use el formato APA para las referencias
+            \item Bibliografía obligatoria 1
+            \item Bibliografía obligatoria 2
+            \item Bibliografía obligatoria 3
+            \item Bibliografía opcional 1
+            \item Bibliografía opcional 2
+            \item Bibliografía opcional 3
+        \end{itemize}\\
         %\endgroup Sesión 1
         \bottomrule
     \end{xltabular}

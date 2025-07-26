@@ -1,14 +1,14 @@
 \documentclass[letterpaper, 12pt, titlepage]{article} % Tipo de documento, configurado con: tamaño carta, tamaño de fuente 12pt, inclusión de página de título
 
 % ================================================================
-% PAQUETES BÁSICOS Y CONFIGURACIÓN ESENCIAL
+%* PAQUETES BÁSICOS Y CONFIGURACIÓN ESENCIAL
 % ================================================================
 \usepackage[utf8]{inputenc}         % Codificación de caracteres UTF-8
 \usepackage[spanish]{babel}         % Localización en español (guiones, títulos)
 \usepackage[margin=1in]{geometry}   % Configuración de márgenes de página
 
 % ================================================================
-% TIPOGRAFÍA Y FORMATO DE TEXTO
+%* TIPOGRAFÍA Y FORMATO DE TEXTO
 % ================================================================
 %\usepackage{fontspec}              % Manejo de fuentes con XeLaTeX
 %\setmainfont{Myriad Pro} % Fuente principal (Myriad Pro)
@@ -23,14 +23,14 @@
 \renewcommand{\thesubsubsection}{\arabic{section}.\arabic{subsection}.\arabic{subsubsection}} % Subsubsecciones: 1.1.1, 1.1.2...
 
 % ================================================================
-% ELEMENTOS GRÁFICOS Y DISEÑO
+%* ELEMENTOS GRÁFICOS Y DISEÑO
 % ================================================================
 \usepackage{graphicx}               % Manejo de imágenes (inserción y escalado)
 \usepackage{xcolor}                 % Sistema de colores personalizados
 \usepackage{pdflscape}              % Páginas en orientación horizontal
 
 % ================================================================
-% TABLAS PROFESIONALES
+%* TABLAS PROFESIONALES
 % ================================================================
 \usepackage{booktabs}              % Reglas tipográficas para tablas (formato APA)
 \usepackage{tabularx}              % Tablas con ancho ajustable
@@ -43,7 +43,7 @@
 \setlist{nosep, leftmargin=*, wide=0pt} % Listas ultra compactas
 
 % ================================================================
-% HIPERVÍNCULOS Y METADATOS PDF
+%* HIPERVÍNCULOS Y METADATOS PDF
 % ================================================================
 \usepackage[hyphens]{url}
 \usepackage{hyperref}             % Hipervínculos y referencias internas
@@ -57,7 +57,7 @@
 }
 
 % ================================================================
-% TO DO: TAREAS PENDIENTES Y ANOTACIONES
+%* TAREAS PENDIENTES Y ANOTACIONES
 % ================================================================
 \setlength{\marginparwidth}{2cm} % Soluciona el problema de \todonotes
 \usepackage{todonotes} % Paquete principal
@@ -70,12 +70,11 @@
 \newcommand{\actualizar}[1]{\todo[color=green!30, inline]{#1}}
 
 % ================================================================
-% CONFIGURACIONES FINALES
+% TODO: CONFIGURACIONES FINALES
 % ================================================================
 \newcommand{\universidad}{Universidad de las Regiones Autónomas de la Costa Caribe Nicaragüense} % Nombre de la universidad
 \newcommand{\carrera}{Nombre de la Carrera} % Nombre de la carrera
 \newcommand{\asignatura}{Nombre de la Asignatura} % Nombre de la asignatura
-\newcommand*{\encabezadodetabla}[1]{\multicolumn{1}{>{\centering\arraybackslash}X}{\bfseries #1}} % Encabezado centrado y en negritas en tablas
 
 % ================================================================
 % PAQUETE LOREM IPSUM PARA TEXTO DE EJEMPLO, BORRAR EN PRODUCCIÓN
