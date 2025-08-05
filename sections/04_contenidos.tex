@@ -2,15 +2,15 @@
     \section{Contenidos}
 
     \doublespacing
-    \begin{xltabular}{\linewidth}{@{}c l c c c c@{}}
+    \begin{xltabular}{\linewidth}{@{}c X c c c c c@{}}
         \toprule
-        & & \multicolumn{4}{c}{\textbf{Horas}}\\ % Celda combinada para las horas teóricas, prácticas, de trabajo independiente y total
+        \multirow{2}{*}{\thead{\normalsize{\textbf{No.}}}} & \multirow{2}{*}{\thead{\normalsize{\textbf{Unidad}}}} & \multicolumn{4}{c}{\textbf{Horas}} & \multirow{2}{*}{\thead{\normalsize{\textbf{Créditos}}}}\\ % Celda combinada para las horas teóricas, prácticas, de trabajo independiente y total &
         \cmidrule(lr){3-6}
-        \thead{\normalsize{\textbf{No.}}} & \thead{\normalsize{\textbf{Unidad}}} & \thead{\normalsize{\textbf{Teóricas}}} & \thead{\normalsize{\textbf{Prácticas}}} & \thead{\normalsize{\textbf{Trabajo Independiente}}} & \thead{\normalsize{\textbf{Total}}} \\
+        && \thead{\normalsize{\textbf{Teóricas}}} & \thead{\normalsize{\textbf{Prácticas}}} & \thead{\normalsize{\textbf{Trabajo Independiente}}} & \thead{\normalsize{\textbf{Total}}} \\
         \midrule
         %! Texto Lorem Ipsum para mostrar el formato de la tabla. Eliminar en producción y escriba cada unidad en cada item.
         %! Las horas están definidas como ejemplo, ajuste según el contenido real de la asignatura.
-        I & \lipsum[1][1] & 8 & 8 & 16 & 32 \\
+        I & \lipsum[1][1] & 8 & 8 & 16 & 32 & \multirow{8}{*}{4} \\
         II & \lipsum[2][1] & 8 & 8 & 16 & 32 \\
         III & \lipsum[3][1] & 8 & 8 & 16 & 32 \\
         IV & \lipsum[4][1] & 8 & 8 & 16 & 32 \\
@@ -19,7 +19,7 @@
         \midrule
         \multicolumn{2}{c}{\textbf{Evaluación}} & 0 & 4 & 8 & 12 \\
         \midrule
-        \multicolumn{2}{c}{\textbf{TOTAL}} & 30 & 34 & 128 & 192 \\
+        \multicolumn{2}{c}{\textbf{TOTAL}} & 30 & 34 & 128 & 192 & 4\\
         \bottomrule
     \end{xltabular}
 \end{landscape}
